@@ -9,3 +9,15 @@ def factorial(number):
         return 1
 
     return number * factorial(number - 1)
+
+
+def main ():
+    number = int(input("Input your number: "))
+
+    result = factorial(number)
+
+    msg = f"Factorial {number} is {result}."
+
+    print (msg)
+
+main()
